@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    font-family: sans-serif;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/000/573/077/original/vector-sign-of-stopwatch-icon.jpg');
+    background-size: cover;
+}
+.stopWatch h1{
+    font-size: 40px;
+    line-height: 80px;
+}
+.stopWatch p{
+    font-size: 30px;
+    
+}
+.stopWatch button{
+    padding: 10px 20px;
+    font-size: 25px;
+    border-radius: 50%;
+    margin: 25px 5px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
